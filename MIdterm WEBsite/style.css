@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family:'Outfit', sans-serif;
+    height: 200vh;
+}
+
+.logo img{
+    width: 150px;  
+}
+.logo{
+    text-align: center;
+    padding: 30px;
+}
+.navbar{
+    background-color: #CD113B;
+    width: auto;
+    height: 10vh;
+    text-align: center;  
+}
+.navbar ul{
+    padding: 20px;
+}
+.navbar ul li{
+    display: inline;
+    font-weight: bolder;
+    margin: 20px;
+
+}
+a{
+    color:white;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    border-bottom: 3px white solid;
+    border-radius: 2.5%;
+   
+}
+.info{
+    
+}
+.photo{
+    background-color: #CD113B;
+    height: 67vh;
+    display: flex;
+}
+.photo_background{
+    margin-top: 10px;
+    margin-left: 50px;
+    
+
+}
+.photo_background img{
+    
+    border-radius: 20px;
+    animation-name: chage;
+    animation-duration: 4s;
+}
+.about{
+    padding: 30px;
+    font-size: 20px;
+    color:white;
+    
+}
+.about h1{
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.about p{
+    margin:10px;
+}
+.btb{
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:10px;
+    width: 150px;
+    height: 40px;
+    color:#CD113B ;
+    border:none;
+    margin-top: 30px;
+}
+.footage{
+    margin-top:100px;
+    background-color:#CD113B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.contianer1{
+    margin-left: 40px;
+    padding: 40px;
+}
+.get{
+    font-size: 30px;
+    font-weight:bold;
+    
+}
+.write1{
+    margin: 20px 0px;
+
+}
+.social img{
+    width: 40px;
+}
+.contianer2{
+    margin-top: 20px;
+    background-color:#CD113B;
+    text-align: center;
+    margin-right: 150px;
+}
+.thea{
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
